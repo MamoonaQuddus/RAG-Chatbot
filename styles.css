@@ -1,0 +1,91 @@
+/* ✅ Apply Background Gradient to Whole Page */
+/* html, body {
+    background: linear-gradient(to right, #5283a5, #c486ab) !important;
+    color: white !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+} */
+
+/* ✅ Make Sure Streamlit's Container Has the Background */
+[data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
+    background: linear-gradient(to right, #c6a3c9, #8fd6e0) !important;
+    border-radius: 10px;
+}
+
+/* ✅ Ensure Sidebar Background is Consistent */
+[data-testid="stSidebarContent"] {
+    background: linear-gradient(to right, #9ebeca, #68b9af) !important;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* ✅ Centering Chat Input */
+.stTextArea textarea, .stChatInput textarea {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 10px;
+    /* background-color: white; */
+    background: linear-gradient(to right,#c6a3c9, #8fd6e0) !important;
+    border: 2px solid #80deea;
+    color: black;
+}
+
+/* ✅ Chat Message Styling */
+.stChatMessage {
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+/* ✅ User Message */
+.user {
+    background-color: #d1ecf1 !important;
+    color: #383d41 !important;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* ✅ AI Assistant Message */
+.assistant {
+    background-color: #e2e3e5 !important;
+    color: #383d41 !important;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* ✅ Error Message */
+.error-box {
+    background-color: #f8d7da !important;
+    color: #721c24 !important;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* ✅ Customize Headers & Titles */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+    text-align: center;
+}
+
+/* ✅ Adjust Sidebar Titles */
+.stSidebar .stText {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* ✅ Adjust Buttons */
+button {
+    background-color: #2a9d8f !important;
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+    font-size: 16px !important;
+}
+
+button:hover {
+    background-color: #264653 !important;
+}

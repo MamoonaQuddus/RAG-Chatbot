@@ -1,0 +1,13 @@
+streamlit==1.42.0
+langchain
+langchain_groq
+langchain_core
+langchain_community
+huggingface-hub
+pypdf2
+python-docx
+transformers
+faiss-cpu
+zstandard
+sentence-transformers
+docx2txt
