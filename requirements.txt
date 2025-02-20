@@ -8,6 +8,6 @@ pypdf2
 python-docx
 transformers
 faiss-cpu
-zstandard
+zstandard==0.23.0
 sentence-transformers
 docx2txt
